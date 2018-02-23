@@ -1,3 +1,12 @@
+'''
+performing linear stretching by providing 
+old min as oMin, old max as oMax,
+new min as nMin and new max as nMax.
+
+histogram stretching: (nMax-nMin)/(oMax-oMin)*i+nMin
+'''
+
+
 nMin = 0
 nMax = 255
 oMin = 0
